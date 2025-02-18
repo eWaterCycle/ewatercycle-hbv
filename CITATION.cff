@@ -1,0 +1,37 @@
+# YAML 1.2
+---
+authors:
+    -
+    affiliation: "Delft University of Technology"
+    family-names: Haasnoot
+    given-names: David
+    orcid: "https://orcid.org/0009-0002-4838-8350"
+  -
+    affiliation: "Netherlands eScience Center"
+    family-names: Schilperoort
+    given-names: Bart
+    orcid: "https://orcid.org/0000-0003-4487-9822"
+  -
+    affiliation: "Delft University of Technology"
+    family-names: Melotto
+    given-names: Mark
+    orcid: "https://orcid.org/0009-0005-2727-660X"
+    email: "markmelotto@tudelft.nl"
+  -
+    affiliation: "Delft University of Technology"
+    family-names: Hut
+    given-names: Rolf
+    orcid: "https://orcid.org/0000-0002-5697-5697"
+cff-version: "1.2.0"
+keywords:
+  - hydrology
+  - bmi
+license: "Apache-2.0"
+message: "If you use this software, please cite it using these metadata."
+repository-code: "https://github.com/eWaterCycle/ewatercycle"
+title: eWaterCycle Python package
+identifiers:
+  - description: Latest version of software
+    type: doi
+    value: "10.5281/zenodo.5119389"
+...
