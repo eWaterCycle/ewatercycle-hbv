@@ -32,6 +32,7 @@ dependencies = [
 # This registers the plugin such that it is discoverable by eWaterCycle
 [project.entry-points."ewatercycle.models"]
 HBV = "ewatercycle_HBV.model:HBV"
+HBVLocal = "ewatercycle_HBV.model:HBVLocal"
 
 [project.urls]
 homepage = "https://github.com/Daafip/ewatercycle-hbv"
