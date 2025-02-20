@@ -50,7 +50,7 @@ class HBVMethods(eWaterCycleModel):
     """
     The eWatercycle HBV model.
     """
-
+    
     forcing: LumpedMakkinkForcing | CaravanForcing  # The model requires forcing.
     parameter_set: None  # The model has no parameter set.
 
@@ -177,6 +177,6 @@ class HBV(ContainerizedModel, HBVMethods):
         "ghcr.io/ewatercycle/hbv-bmi-grpc4bmi:latest"
     )
 
-# class HBVLocal(LocalModel, HBVMethods):
-#     """The HBV eWaterCycle model, with the local BMI."""
-#     bmi_class: Type[Bmi] = import_bmi()
+class HBVLocal(LocalModel, HBVMethods):
+    """The HBV eWaterCycle model, with the local BMI."""
+    bmi_class: Type[Bmi] = import_bmi()
