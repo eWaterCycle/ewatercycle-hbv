@@ -13,6 +13,7 @@ license = "Apache-2.0"
 version = "1.8.5"
 authors = [
   { name = "David Haasnoot", email = "davidhaasnoot@gmail.com" },
+  { name = "Rolf Hut", email = "r.w.hut@tudelft.nl" },
 ]
 keywords = ["ewatercycle", "hydrology"]
 classifiers = [
@@ -27,6 +28,7 @@ classifiers = [
 # Include here only the dependencies for the eWaterCycle wrapped model
 dependencies = [
   "ewatercycle",
+  "HBV-bmi"
 ]
 
 # This registers the plugin such that it is discoverable by eWaterCycle
@@ -35,4 +37,4 @@ HBV = "ewatercycle_HBV.model:HBV"
 HBVLocal = "ewatercycle_HBV.model:HBVLocal"
 
 [project.urls]
-homepage = "https://github.com/Daafip/ewatercycle-hbv"
+homepage = "https://github.com/ewatercycle/ewatercycle-hbv"
