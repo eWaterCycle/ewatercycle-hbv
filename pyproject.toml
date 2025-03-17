@@ -5,6 +5,9 @@ build-backend = "hatchling.build"
 [tool.hatch.version]
 path = "src/ewatercycle_HBV/__init__.py"
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
 [project]
 name = "ewatercycle-HBV"
 description = "Implementation of HBV for eWaterCycle"
