@@ -28,7 +28,7 @@ classifiers = [
 # Include here only the dependencies for the eWaterCycle wrapped model
 dependencies = [
   "ewatercycle",
-  "HBV"
+  "HBV@git+https://github.com/eWaterCycle/HBV-bmi@main"
 ]
 
 # This registers the plugin such that it is discoverable by eWaterCycle
